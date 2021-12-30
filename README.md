@@ -42,7 +42,7 @@ npm install @stdlib/array-base-incrspace
 var incrspace = require( '@stdlib/array-base-incrspace' );
 ```
 
-#### incrspace( start, stop, incremen] )
+#### incrspace( start, stop\[, increment] )
 
 Generates a linearly spaced numeric `array` according to a provided `increment`.
 
