@@ -48,7 +48,7 @@ Alternatively,
 var incrspace = require( '@stdlib/array-base-incrspace' );
 ```
 
-#### incrspace( start, stop\[, increment] )
+#### incrspace( start, stop, increment )
 
 Generates a linearly spaced numeric `array` according to a provided `increment`.
 
