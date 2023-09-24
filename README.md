@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-incrspace/tags). For example,
+
+```javascript
 import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@v0.1.0-esm/index.mjs';
 ```
 
@@ -104,7 +109,7 @@ var arr = incrspace( 0, 11, 2 );
 <body>
 <script type="module">
 
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@v0.1.0-esm/index.mjs';
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
 
 var out = incrspace( 0, 10, 2 );
 console.log( out.join( '\n' ) );
