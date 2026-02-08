@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@v0.2.3-esm/index.mjs';
 ```
 
 #### incrspace( start, stop, increment )
@@ -104,7 +104,7 @@ var arr = incrspace( 0, 11, 2 );
 <body>
 <script type="module">
 
-import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@esm/index.mjs';
+import incrspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@v0.2.3-esm/index.mjs';
 
 var out = incrspace( 0, 10, 2 );
 console.log( out.join( '\n' ) );
